@@ -15,17 +15,7 @@ Autodifferentiation tool for Python.
 Installation
 ------------
 
-Install the fork:
-
-```sh
-pip install chumpy
-```
-
-Import it:
-
-```py
-import chumpy as ch
-```
+This is packaged in nix at [ml-pkgs](https://github.com/nixvital/ml-pkgs/blob/main/pkgs/chumpy/default.nix)
 
 Overview
 --------
@@ -42,6 +32,7 @@ Specifically, it provides:
 - Easy access to derivatives via auto differentiation
 - Easy local optimization methods (12 of them: most of which use the derivatives)
 
+Based on the original chumpy by @mattloper, I have updated it so that it works with python 3.6+.
 
 Usage
 -----
